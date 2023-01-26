@@ -31,6 +31,9 @@ public class EmployeeWage {
 			 System.out.println("Present");
 			 break;
 		 }
+		 int workingDayMonth = 20;
+		 int wageInMonth = (workingDayMonth*dailyWage);
+		 System.out.println("Wage in a month is  " + wageInMonth);
 		}
 	}
 	
